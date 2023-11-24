@@ -15,7 +15,7 @@ Once here you can use the `main.py` this way:
 python main.py --help
 usage: main.py [-h] -m {DATA,BASIC_CNN,INCEPTIONV3} -d DATASET [-o OUTPUT_MODEL] 
                [-l LOAD_MODEL] [-e EPOCHS] [-b BATCH_SIZE] [-i IMAGE_SIZE] 
-               [-w WEIGHTS] [--mode {train-val,train-test,test,gradcam-cati,gradcam-only}]
+               [--mode {train-val,train-test,test,gradcam-cati,gradcam-only}]
 
 Deep Learning Image-based Malware Classification
 
@@ -38,9 +38,6 @@ Arguments:
   -i IMAGE_SIZE, --image_size IMAGE_SIZE
                         FORMAT ACCEPTED = SxC , the Size (SIZExSIZE) and channel of the images in input 
                         (reshape will be applied)
-  -w WEIGHTS, --weights WEIGHTS
-                        If you do not want random initialization of the model weights (ex. 'imagenet' or path 
-                        to weights to be loaded), not available for all models!
   --mode {train-val,train-test,test,gradcam-cati,gradcam-only}
                         Choose which mode run between 'train-val' (default), 'train-test', 'test' or 'gradcam'. 
                         The 'train-val' mode will run a phase of training and validation on the training and 
