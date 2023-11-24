@@ -13,7 +13,7 @@ Once you have the projec you have to run the following commands from the project
 Once here you can use the `main.py` this way:
 ```
 python main.py --help
-usage: main.py [-h] -m {DATA,BASIC_CNN,BASIC_LSTM,BASIC_MLP,NEDO,VINC,VGG16} -d DATASET [-o OUTPUT_MODEL] 
+usage: main.py [-h] -m {DATA,BASIC_CNN,INCEPTIONV3_CNN} -d DATASET [-o OUTPUT_MODEL] 
                [-l LOAD_MODEL] [-e EPOCHS] [-b BATCH_SIZE] [-i IMAGE_SIZE] 
                [-w WEIGHTS] [--mode {train-val,train-test,test,gradcam-cati,gradcam-only}]
 
