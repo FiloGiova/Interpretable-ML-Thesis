@@ -1,9 +1,9 @@
 # Interpretable-ML-Thesis
-This repo contains the necessary material to replicate the tool developed during my thesis work
+This repo contains the necessary material to replicate the tool developed during my work of thesis
 
 ## Getting Started
 
-Once you have the projec you have to run the following commands from the project folder:
+Once you have the project you have to run the following commands from the project folder:
 
 1. Create a virtual environment with Python, then activate the environment and install the dependencies reported in the requirements file.
 2. The next step is to install the decompiler: *apktool* (you can find the instructions at its official page https://apktool.org/docs/install/).
